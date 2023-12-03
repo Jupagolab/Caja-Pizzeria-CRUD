@@ -80,3 +80,52 @@ input {
 p { 
   margin-top: 20px; 
 }
+
+@media only screen and (max-width: 480px) { 
+    h1 { 
+      font-size: 2rem; 
+      margin: 10px 5px; 
+    } 
+   
+    #formulario { 
+      line-height: 1em; 
+      padding: 5px 0; 
+    } 
+   
+    #contenedor { 
+      width: 80%; 
+      border-radius: 10px; 
+      font-size: 50%; 
+    } 
+   
+    table { 
+      width: 80%; 
+    } 
+   
+    input { 
+      font-size: 80%; 
+      padding: 5px; 
+    } 
+  } 
+   
+  @media only screen and (max-width: 600px) { 
+    h1 { 
+      font-size: 2rem; 
+    } 
+   
+    #contenedor { 
+      width: 90%; 
+      border-radius: 10px; 
+      font-size: 40%; 
+    } 
+   
+    table { 
+      width: 90%; 
+    } 
+   
+   
+    input { 
+      font-size: 100%; 
+      padding: 5px; 
+    } 
+  }
